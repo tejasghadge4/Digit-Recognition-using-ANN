@@ -24,11 +24,9 @@ Features
 Dataset:
 The project uses the MNIST dataset, which contains:
 
--60,000 training samples: Images of handwritten digits (28x28 grayscale)
-
--10,000 testing samples: Separate set of images for evaluation.
-
--Each image is labeled with the corresponding digit (0–9).
+1. 60,000 training samples: Images of handwritten digits (28x28 grayscale)
+2. 10,000 testing samples: Separate set of images for evaluation.
+3. Each image is labeled with the corresponding digit (0–9).
 
 Technologies Used:
 
