@@ -24,8 +24,10 @@ Features
 Dataset:
 The project uses the MNIST dataset, which contains:
 
--60,000 training samples: Images of handwritten digits (28x28 grayscale).
+-60,000 training samples: Images of handwritten digits (28x28 grayscale)
+
 -10,000 testing samples: Separate set of images for evaluation.
+
 -Each image is labeled with the corresponding digit (0–9).
 
 Technologies Used:
@@ -38,16 +40,18 @@ Technologies Used:
 Model Architecture
 The model consists of:
 
-Input Layer:
+1. Input Layer:
 Accepts 28x28 grayscale images (flattened to 784 input features).
 
-Hidden Layers:
+2. Hidden Layers:
 Layer 1: Dense layer with 128 neurons and ReLU activation.
 Layer 2: Dense layer with 64 neurons and ReLU activation.
 
-Output Layer:
+3. Output Layer:
 Dense layer with 10 neurons (one for each digit) and softmax activation for probability distribution.
-Results
-Training Accuracy: ~98% (depending on epochs and parameters).
-Test Accuracy: ~97% (on unseen data).
-Example Prediction: The model can predict individual handwritten digits and displays both the image and its predicted label.
+
+Results:
+
+1. Training Accuracy: ~98% (depending on epochs and parameters). 
+2. Test Accuracy: ~97% (on unseen data).
+3. Example Prediction: The model can predict individual handwritten digits and displays both the image and its predicted label.
