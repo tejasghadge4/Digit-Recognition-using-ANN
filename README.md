@@ -7,20 +7,20 @@ This project implements a digit recognition system using the MNIST dataset, a po
 Features
 
 1. Data Preprocessing:
--Normalized pixel values to the range [0, 1] for better model performance.
--Flattened images to a suitable format for neural network input.
+a. Normalized pixel values to the range [0, 1] for better model performance.
+b. Flattened images to a suitable format for neural network input.
 
 2. Model Architecture:
--A simple Artificial Neural Network (ANN) with multiple dense layers.
--ReLU activation for hidden layers and softmax for output.
+a. A simple Artificial Neural Network (ANN) with multiple dense layers.
+b. ReLU activation for hidden layers and softmax for output.
 
 3. Training & Evaluation:
--Trained on the MNIST dataset with 60,000 images for training and 10,000 images for testing.
--Achieved high accuracy on test data.
+a. Trained on the MNIST dataset with 60,000 images for training and 10,000 images for testing.
+b. Achieved high accuracy on test data.
 
 4. Visualization:
--Displayed a subset of the dataset images with their corresponding labels.
--Visualized predicted results for individual test samples.
+a. Displayed a subset of the dataset images with their corresponding labels.
+b. Visualized predicted results for individual test samples.
 
 Dataset:
 The project uses the MNIST dataset, which contains:
