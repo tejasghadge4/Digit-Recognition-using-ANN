@@ -4,31 +4,31 @@ Overview:
 
 This project implements a digit recognition system using the MNIST dataset, a popular benchmark dataset for image processing and machine learning tasks. The goal of this project is to classify handwritten digits (0–9) using a Neural Network. The project demonstrates the application of deep learning for image recognition, preprocessing, training, evaluation, and visualization of predictions.
 
-Features
+Features:
 
 1. Data Preprocessing:
  
-a. Normalized pixel values to the range [0, 1] for better model performance.
+   a. Normalized pixel values to the range [0, 1] for better model performance.
 
-b. Flattened images to a suitable format for neural network input.
+   b. Flattened images to a suitable format for neural network input.
 
 2. Model Architecture:
    
-a. A simple Artificial Neural Network (ANN) with multiple dense layers.
+   a. A simple Artificial Neural Network (ANN) with multiple dense layers.
 
-b. ReLU activation for hidden layers and softmax for output.
+   b. ReLU activation for hidden layers and softmax for output.
 
 3. Training & Evaluation:
  
-a. Trained on the MNIST dataset with 60,000 images for training and 10,000 images for testing.
+   a. Trained on the MNIST dataset with 60,000 images for training and 10,000 images for testing.
 
-b. Achieved high accuracy on test data.
+   b. Achieved high accuracy on test data.
 
 4. Visualization:
    
-a. Displayed a subset of the dataset images with their corresponding labels.
+   a. Displayed a subset of the dataset images with their corresponding labels.
 
-b. Visualized predicted results for individual test samples.
+   b. Visualized predicted results for individual test samples.
 
 Dataset:
 
