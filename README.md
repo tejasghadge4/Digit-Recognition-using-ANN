@@ -1,6 +1,7 @@
 # Digit-Recognition-using-ANN
 
-Overview
+Overview:
+
 This project implements a digit recognition system using the MNIST dataset, a popular benchmark dataset for image processing and machine learning tasks. The goal of this project is to classify handwritten digits (0–9) using a Neural Network. The project demonstrates the application of deep learning for image recognition, preprocessing, training, evaluation, and visualization of predictions.
 
 Features
