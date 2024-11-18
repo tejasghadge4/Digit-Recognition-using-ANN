@@ -17,12 +17,11 @@ Features
 -Trained on the MNIST dataset with 60,000 images for training and 10,000 images for testing.
 -Achieved high accuracy on test data.
 
-4.Visualization:
+4. Visualization:
 -Displayed a subset of the dataset images with their corresponding labels.
 -Visualized predicted results for individual test samples.
 
-Dataset
-
+Dataset:
 The project uses the MNIST dataset, which contains:
 
 -60,000 training samples: Images of handwritten digits (28x28 grayscale).
